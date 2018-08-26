@@ -1,0 +1,51 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #37B479;
+	font-family: 'calibri';
+	font-weight: 400;
+
+}
+
+button {
+	display: block;
+	margin: 1rem auto;
+	font-size: 25px;
+	border: none;
+	background: #37B479;
+	border-radius: 8px;
+	padding: 10px 15px;
+	color: #fff;
+
+}
+
+button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+input[type="text"] {
+	padding: 0.5rem;
+	margin: 1rem;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	border: 3px solid #37B479;
+}
+
+input[type="text"]:focus {
+	box-shadow: 0 0 10px #37B479;
+}
+
+.container {
+	text-align: center;
+	padding: 2rem;
+	background-color: #fff;
+	border-radius: 7px;
+}
+
+#messageOut {
+	margin: 0.5rem;
+	color: #37B479;
+}
